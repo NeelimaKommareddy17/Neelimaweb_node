@@ -1,0 +1,285 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(241, 241, 237);
+    
+}
+.container{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:0.5fr 1.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+    grid-gap:0.2rem;
+    padding: 10px;
+    margin: 15px;
+    grid-template-areas: 
+    "header header header header"
+    "profileimage profile profile profile"
+    "AboutMeImage AboutMe AboutMe AboutMe"
+    "workimage workexperience workexperience workexperience "
+    "educationimage education education education"
+    "skillsimage skills skills skills"
+    "projectsimage projects projects projects"
+    "blogsimage blogs blogs blogs"
+    "Interestsimage Interests Interests Interests"
+    "Contactimg Contact Contact Contact";
+}
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: rgb(23, 75, 127);
+    color:whitesmoke;
+}
+header a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding:30px;
+    text-align: center;
+}
+header{
+    grid-area: header;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 5px;
+}
+#profile{
+    grid-area: profile;
+    background-color: darkgray;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 170px;
+}
+#profileimage{
+    grid-area: profileimage;
+    background-color: darkgray;
+    height: 170px
+}
+#AboutMeImage{
+    grid-area: AboutMeImage;
+    background-color: darkgray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+}
+#AboutMe{
+    grid-area: AboutMe;
+    background-color: darkgray;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 3%;
+}
+#workimage{
+    grid-area: workimage;
+    background-color: darkgray;
+}
+#workexperience{
+    grid-area: workexperience;
+    background-color: darkgray;
+    text-align: left;
+    padding-left: 3%;
+}
+#educationimage{
+    grid-area: educationimage;
+    background-color: darkgray;
+}
+#education{
+    grid-area: education;
+    background-color: darkgray;
+    text-align: left;
+    padding-left: 2%;
+}
+#skillsimage{
+    grid-area: skillsimage;
+    background-color: darkgray;
+}
+#skills{
+    grid-area: skills;
+    background-color: darkgray;
+    text-align: left;
+}
+#projectsimage{
+    grid-area: projectsimage;
+    background-color: darkgray;
+}
+#projects{
+    grid-area: projects;
+    background-color: darkgray;
+    text-align: left;
+    padding-left: 2%;
+}
+#blogsimage{
+    grid-area: blogsimage;
+    background-color: darkgray;
+}
+#blogs{
+    grid-area: blogs;
+    background-color: darkgray;
+    text-align: left;
+    padding-left: 3%;
+}
+#Interestsimage{
+    grid-area: Interestsimage;
+    background-color: darkgray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px; 
+}
+#Interests{
+    grid-area: Interests;
+    background-color: darkgray;
+    text-align: left;
+}
+#Contactimg{
+    grid-area: Contactimg;
+    background-color: darkgray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+}
+
+#Contact{
+    grid-area: Contact;
+    background-color: darkgray;
+    justify-content: space-between;
+    font-size: large;
+    padding: 5px;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.image img{
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+img{
+    height : 65px;
+    width : 70px;
+    padding: 10px;
+
+}
+.school{
+    display: inline-block;
+    padding: 20px;
+}
+.topnav .icon {
+    display: none;
+}
+
+@media only screen and (max-width:500px){
+    .container{
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        grid-template-rows: auto;
+        padding: 0px;
+        margin: 0px;
+        grid-template-areas: 
+        "header header"
+        "profileimage profile "
+        "AboutMeImage AboutMe "
+        "workimage workexperience "
+        "educationimage education "  
+        "skillsimage skills "
+        "projectsimage projects "
+        "blogsimage blogs "
+        "Interestsimage Interests "
+        "Contactimg Contact ";
+   }
+   
+   body{
+    font-size: smaller;
+   }
+    .school{
+        display: block;
+        padding: 5px;
+    }
+   
+    header{
+        font-size: xx-small;
+    }
+    .image img{
+        padding: 10px;
+        height: 140px;
+        width: 70%;
+    }
+
+    #AboutMeImage{
+        vertical-align: middle;
+        line-height: 200px; 
+    }
+
+    #workimage{
+        vertical-align: middle;
+        line-height: 10px; 
+    }
+
+    #educationimage{
+        vertical-align: middle;
+        line-height: 5px; 
+    }
+    #educationimage img{    
+        margin-top: 50%;
+    }
+
+    #skillsimage{
+        vertical-align: middle;
+        line-height: 5px; 
+    }
+    #skillsimage img{     
+        margin-top: 50%;
+    }
+
+    #projectsimage{
+        vertical-align: middle;
+        line-height: 5px; 
+    }
+
+    #projectsimage img{     
+        margin-top: 30%;
+    }    
+    #blogsimage{
+        vertical-align: middle;
+        line-height: 5px; 
+    }
+    #blogsimage img{
+        margin-top: 10%;
+    }
+    #Interestsimage{
+        vertical-align: middle;
+        line-height: 5px; 
+    }
+
+    #Interestsimage img{ 
+        margin-top: 30%;
+    }
+    #Contactimg{
+        vertical-align: middle;
+        line-height: 100px; 
+    }
+    #Contact{
+        font-size: medium;
+    }
+    header a:not(:first-child) {display: none;}
+    header a{
+        float: left;
+        font-size: 15px;
+        padding: 2%;
+    }
+    .topnav a.icon {
+        float: left;
+        display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+

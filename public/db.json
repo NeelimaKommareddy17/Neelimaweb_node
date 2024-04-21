@@ -1,0 +1,116 @@
+{"hotels":[
+   {
+      "hotel_id":1,
+      "hotel_name":"Lakeside Retreat Resort",
+      "hotel_location":"456 Lakeview Drive,Lakeside Town",
+      "hotel_roomType":"Lakeview Suite",
+      "hotel_price":300,
+      "hotel_checkin_time":"4:00 PM",
+      "hotel_checkout_time":"11:00 AM",
+      "hotel_bookingStatus":"Limited availability",
+      "hotel_reviews":[
+         {
+            "user":"Emily",
+            "comment":"Breathtaking views and top-notch amenities!"
+         }
+      ],
+      "hotel_image":"https://media.gettyimages.com/id/584709490/photo/inle-lake-nyaungshwe-township-taunggyi-district-myanmar-shwe-inn-tha-floating-resorts-bungalows.jpg?s=612x612&w=0&k=20&c=IdNvEIrvsPcJXAsQcFJFBvGQJ8EHnHPX3yv-Oxv19PI=",
+      "hotel_rating":4,
+      "hotel_contact":"+1 (555) 987-6543"
+   },
+   {
+      "hotel_id":2,
+      "hotel_name":"Grand Plaza Hotel",
+      "hotel_location":"123 Main Street,City Center",
+      "hotel_roomType":"Deluxe King Room",
+      "hotel_price":250,
+      "hotel_checkin_time":"3:00 PM",
+      "hotel_checkout_time":"12:00 PM",
+      "hotel_bookingStatus":"Available",
+      "hotel_reviews":[
+         {
+            "user":"John Doe",
+            "comment":"Fantastic stay with excellent service!"
+         }
+      ],
+      "hotel_image":"https://imgs.search.brave.com/gOxA0hoII-Uyi4F80uABruIbf789Yj_WjV3yTqhQ60E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NDYw/OTEuanBn",
+      "hotel_rating":3,
+      "hotel_contact":"+1 (555) 123-4567"
+   },
+   {
+      "hotel_id":3,
+      "hotel_name":"Mountain View Hotel",
+      "hotel_location":"789 Summit Road,Mountain Village",
+      "hotel_roomType":"Mountain View Cabin",
+      "hotel_price":200,
+      "hotel_checkin_time":"2:00 PM",
+      "hotel_checkout_time":"10:00 AM",
+      "hotel_bookingStatus":"Fully booked",
+      "hotel_reviews":[
+         {
+            "user":"Lisa Johnson",
+            "comment":"Cozy cabins with stunning mountain vistas!"
+         }
+      ],
+      "hotel_image":"https://media.gettyimages.com/id/157335517/photo/winter-telluride-colorado.jpg?s=612x612&w=0&k=20&c=ck4L4VsBz2_U02wMManRaXORlve63-uqF-78vwezwWw=",
+      "hotel_rating":4,
+      "hotel_contact":"+1 (555) 234-5678"
+   },
+   {
+      "hotel_id":4,
+      "hotel_name":"Coastal Haven Resort",
+      "hotel_location":"101 Beachfront Avenue,Coastal City",
+      "hotel_roomType":"Oceanfront Villa",
+      "hotel_price":400,
+      "hotel_checkin_time":"3:00 PM",
+      "hotel_checkout_time":"12:00 PM",
+      "hotel_bookingStatus":"Fully booked",
+      "hotel_reviews":[
+         {
+            "user":"Michael Adams",
+            "comment":"Paradise by the sea! Can't wait to return!"
+         }
+      ],
+      "hotel_image":"https://imgs.search.brave.com/dvaYfJlZAfJJlfvqWOuD6ys7UKIEE_0KJY3_fFUU3so/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NDYw/NzEuanBn",
+      "hotel_rating":5,
+      "hotel_contact":"+1 (555) 345-6789"
+   },
+   {
+      "hotel_id":5,
+      "hotel_name":"Urban Oasis Hotel",
+      "hotel_location":" 789 Downtown Street,City Center",
+      "hotel_roomType":"Executive Suite",
+      "hotel_price":350,
+      "hotel_checkin_time":"5:00 PM",
+      "hotel_checkout_time":"11:00 AM",
+      "hotel_bookingStatus":"Limited availability",
+      "hotel_reviews":[
+         {
+            "user": "Sarah Thompson",
+            "comment":"Luxury in the heart of the city! Exceptional service."
+         }
+      ],
+      "hotel_image":"https://imgs.search.brave.com/uhiN72be-8z8qBSecbnA_rW-0q6sEpesgUhk3mT91HU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTAz/NDE3NDAyL3Bob3Rv/L2x1eHVyeS1jb25z/dHJ1Y3Rpb24taG90/ZWwtd2l0aC1zd2lt/bWluZy1wb29sLWF0/LXN1bnNldC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TnlQ/Q19jLXdFM1dfQ0lt/QTR0NTdGcHlHeTZm/NDI4Q1lST2Q4MGp4/VkM0QT0",
+      "hotel_rating":5,
+      "hotel_contact":"+1 (555) 456-7890"
+   },
+   {
+      "hotel_id":6,
+      "hotel_name":"Tranquil Gardens Inn",
+      "hotel_location":" 234 Serene Lane, Countryside",
+      "hotel_roomType":"Garden View Room",
+      "hotel_price":150,
+      "hotel_checkin_time":"2:00 PM",
+      "hotel_checkout_time":"11:00 AM",
+      "hotel_bookingStatus":"Available",
+      "hotel_reviews":[
+         {
+            "user":"Mark Taylor",
+            "comment":"Peaceful retreat with beautiful gardens!"
+         }
+      ],
+      "hotel_image":"https://imgs.search.brave.com/Lq7UZOPNbOiqwl4NHz6nzpHHrD0gG_1vc7d-CcC8eBQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzk5Ny83OTYv/ODk5L25pZ2h0LXBh/bG0tdHJlZXMtaG9t/ZS1taWFtaS13YWxs/cGFwZXItcHJldmll/dy5qcGc",
+      "hotel_rating":4,
+      "hotel_contact":"+1 (555) 567-8901"
+   }
+]}
